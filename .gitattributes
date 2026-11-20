@@ -1,0 +1,2 @@
+# Preserve the archived reference sketch's original line endings and spacing.
+Related_materials/ardino_demo/ardino_demo.ino -text whitespace=-blank-at-eol,-blank-at-eof

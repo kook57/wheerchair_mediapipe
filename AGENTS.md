@@ -5,14 +5,14 @@
 | 任务 | 先读 | 核对内容 |
 |---|---|---|
 | 接手、运行或排查 | [根目录 README](README.md) | 当前分支、入口脚本和运行条件 |
-| 修改 Python、模型或串口代码 | [项目开发规范](EyeWheelchairProject/Agent.md) | 模块职责、模型路径、模拟模式与验证方法 |
-| 处理 Git 或准备提交 | [项目 Git 指南](EyeWheelchairProject/GIT_GUIDE.md) | 项目协作约定与中英双语提交格式 |
+| 修改 Python、模型或串口代码 | [项目开发规范](docs/Agent.md) | 模块职责、模型路径、模拟模式与验证方法 |
+| 处理 Git 或准备提交 | [项目 Git 指南](docs/GIT_GUIDE.md) | 项目协作约定与中英双语提交格式 |
 | 查阅通用协作规范 | 本地 CoMind 仓库的 `01_AI项目协作参考/README.md` | 按任务进入子代理、代码或提交规范 |
 
 ## 项目约定
 
-- 开工先用 `git status --short --branch` 核对分支和工作区，再查看当前分支实际包含的文件。原项目的分支与归档记录见[项目文档](EyeWheelchairProject/README.md)。
+- 开工先用 `git status --short --branch` 核对分支和工作区，再查看当前分支实际包含的文件。原项目的分支与归档记录见[项目文档](docs/PROJECT.md)。
 - `main` 是本仓库基线，`chen/main` 是从该基线建立的 Chen 开发主线。本仓库的分支以根目录 README 和 Git 引用为准。
 - 保留已有改动。需要提交时按路径暂存本次文件，推送由仓库所有者执行，子代理由使用者授权。
 - 运行演示和测试时使用默认屏幕模拟。修改 Python 行为后，按根目录 README 执行相关离线测试。
-- 凭据、虚拟环境、录像与截图留在本地。项目已有的 `.task` 模型随仓库版本管理。
+- 凭据、虚拟环境、录像与截图留在本地。项目使用的 `.task` 模型和 `models/gesture_best.onnx` 随仓库版本管理。

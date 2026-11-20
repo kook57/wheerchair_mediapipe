@@ -7,9 +7,9 @@
 .zcodeignore
 
 # Camera recordings and snapshots
-/EyeWheelchairProject/data/raw_videos/
-/EyeWheelchairProject/data/snapshots/
-/EyeWheelchairProject/data/landmark_snapshots/
+/data/raw_videos/
+/data/snapshots/
+/data/landmark_snapshots/
 
 # OS metadata
 Thumbs.db
